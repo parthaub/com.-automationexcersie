@@ -1,5 +1,6 @@
 package com.automationexcersie.base;
 import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -9,6 +10,7 @@ public class DriverFactory {
 
 private WebDriver driver;	
 
+
 	public void openBrowser() {
 		if (driver == null) {
 			driver = new ChromeDriver();
@@ -16,8 +18,8 @@ private WebDriver driver;
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		}
 		driver.get(ConfigReader.getProperty("base.url"));
+		
 	}
-	
 	
 	public  WebDriver getDriver() {
 		return driver;

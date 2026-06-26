@@ -1,27 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-21T10:58:41 EDT" name="Suite" finished-at="2026-06-21T10:59:41 EDT" duration-ms="60665">
+  <suite started-at="2026-06-25T22:55:30 EDT" name="Suite" finished-at="2026-06-25T22:56:29 EDT" duration-ms="59016">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationexcersie.runners.TestRunner@4c371370]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationexcersie.runners.TestRunner@128d2484]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-06-21T10:58:41 EDT" name="Test" finished-at="2026-06-21T10:59:41 EDT" duration-ms="60665">
+    <test started-at="2026-06-25T22:55:30 EDT" name="Automation Tests" finished-at="2026-06-25T22:56:29 EDT" duration-ms="59016">
+      <class name="com.automationexcersie.testngtest.LoginTestNGTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automationexcersie.testngtest.LoginTestNGTest@3270d194]" started-at="2026-06-25T22:56:10 EDT" name="setup" finished-at="2026-06-25T22:56:12 EDT" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest()[pri:1, instance:com.automationexcersie.testngtest.LoginTestNGTest@3270d194]" started-at="2026-06-25T22:56:12 EDT" name="validLoginTest" finished-at="2026-06-25T22:56:17 EDT" duration-ms="4987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationexcersie.testngtest.LoginTestNGTest@3270d194]" started-at="2026-06-25T22:56:17 EDT" name="teardown" finished-at="2026-06-25T22:56:17 EDT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automationexcersie.testngtest.LoginTestNGTest@3270d194]" started-at="2026-06-25T22:56:17 EDT" name="setup" finished-at="2026-06-25T22:56:19 EDT" duration-ms="2045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLoginTestWithInvlaidEmail()[pri:2, instance:com.automationexcersie.testngtest.LoginTestNGTest@3270d194]" started-at="2026-06-25T22:56:19 EDT" name="InvalidLoginTestWithInvlaidEmail" finished-at="2026-06-25T22:56:23 EDT" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTestWithInvlaidEmail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationexcersie.testngtest.LoginTestNGTest@3270d194]" started-at="2026-06-25T22:56:23 EDT" name="teardown" finished-at="2026-06-25T22:56:23 EDT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automationexcersie.testngtest.LoginTestNGTest@3270d194]" started-at="2026-06-25T22:56:23 EDT" name="setup" finished-at="2026-06-25T22:56:27 EDT" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLoginTestWithInvlaidPassword()[pri:3, instance:com.automationexcersie.testngtest.LoginTestNGTest@3270d194]" started-at="2026-06-25T22:56:27 EDT" name="InvalidLoginTestWithInvlaidPassword" finished-at="2026-06-25T22:56:29 EDT" duration-ms="2659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTestWithInvlaidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationexcersie.testngtest.LoginTestNGTest@3270d194]" started-at="2026-06-25T22:56:29 EDT" name="teardown" finished-at="2026-06-25T22:56:29 EDT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationexcersie.testngtest.LoginTestNGTest -->
       <class name="com.automationexcersie.runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automationexcersie.runners.TestRunner@4c371370]" started-at="2026-06-21T10:58:41 EDT" name="setUpClass" finished-at="2026-06-21T10:58:41 EDT" duration-ms="677" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automationexcersie.runners.TestRunner@128d2484]" started-at="2026-06-25T22:55:30 EDT" name="setUpClass" finished-at="2026-06-25T22:55:31 EDT" duration-ms="430" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@cedee22]]>
+                <![CDATA[org.testng.TestRunner@2328ec73]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationexcersie.runners.TestRunner@4c371370]" started-at="2026-06-21T10:58:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-21T10:59:03 EDT" duration-ms="21273" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationexcersie.runners.TestRunner@128d2484]" started-at="2026-06-25T22:55:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-25T22:55:51 EDT" duration-ms="20077" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationexcersie.runners.TestRunner@4c371370]" started-at="2026-06-21T10:59:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-21T10:59:22 EDT" duration-ms="19784" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationexcersie.runners.TestRunner@128d2484]" started-at="2026-06-25T22:55:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-25T22:56:01 EDT" duration-ms="9664" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationexcersie.runners.TestRunner@4c371370]" started-at="2026-06-21T10:59:22 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-21T10:59:41 EDT" duration-ms="18766" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automationexcersie.runners.TestRunner@128d2484]" started-at="2026-06-25T22:56:01 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-25T22:56:09 EDT" duration-ms="8765" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,11 +107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automationexcersie.runners.TestRunner@4c371370]" started-at="2026-06-21T10:59:41 EDT" name="tearDownClass" finished-at="2026-06-21T10:59:41 EDT" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automationexcersie.runners.TestRunner@128d2484]" started-at="2026-06-25T22:56:09 EDT" name="tearDownClass" finished-at="2026-06-25T22:56:10 EDT" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.automationexcersie.runners.TestRunner -->
-    </test> <!-- Test -->
+    </test> <!-- Automation Tests -->
   </suite> <!-- Suite -->
 </testng-results>

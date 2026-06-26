@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,31 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.automationexcersie.runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with invalid email&quot;, &quot;User Login&quot;)">runScenario("Login with invalid email", "User Login")</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.automationexcersie.testngtest.LoginTestNGTest" class="method navigator-link" hash-for-method="InvalidLoginTestWithInvlaidEmail">InvalidLoginTestWithInvlaidEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.automationexcersie.runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with invalid password&quot;, &quot;User Login&quot;)">runScenario("Login with invalid password", "User Login")</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.automationexcersie.testngtest.LoginTestNGTest" class="method navigator-link" hash-for-method="InvalidLoginTestWithInvlaidPassword">InvalidLoginTestWithInvlaidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.automationexcersie.runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid email and password&quot;, &quot;User Login&quot;)">runScenario("Login with valid email and password", "User Login")</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.automationexcersie.testngtest.LoginTestNGTest" class="method navigator-link" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -128,78 +128,39 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.automationexcersie.runners.TestRunner</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.automationexcersie.testngtest.LoginTestNGTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login with invalid email&quot;, &quot;User Login&quot;)">
-                  </a> <!-- runScenario("Login with invalid email", "User Login") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with invalid email","User Login")</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:92)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.automationexcersie.utils.WaitUtils.&lt;init&gt;(WaitUtils.java:20)
-	at com.automationexcersie.stepdefinitions.LoginSteps.the_user_is_on_the_home_page(LoginSteps.java:33)
-	at ✽.the user is on the home page(file:///Users/parthadebnath/eclipse-workspace/MyEclipse/com.automationexcersie/src/test/resources/features/login.feature:8)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
+                  <a name="InvalidLoginTestWithInvlaidEmail">
+                  </a> <!-- InvalidLoginTestWithInvlaidEmail -->
+                  <span class="method-name">InvalidLoginTestWithInvlaidEmail</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login with invalid password&quot;, &quot;User Login&quot;)">
-                  </a> <!-- runScenario("Login with invalid password", "User Login") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with invalid password","User Login")</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:92)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.automationexcersie.utils.WaitUtils.&lt;init&gt;(WaitUtils.java:20)
-	at com.automationexcersie.stepdefinitions.LoginSteps.the_user_is_on_the_home_page(LoginSteps.java:33)
-	at ✽.the user is on the home page(file:///Users/parthadebnath/eclipse-workspace/MyEclipse/com.automationexcersie/src/test/resources/features/login.feature:8)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
+                  <a name="InvalidLoginTestWithInvlaidPassword">
+                  </a> <!-- InvalidLoginTestWithInvlaidPassword -->
+                  <span class="method-name">InvalidLoginTestWithInvlaidPassword</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login with valid email and password&quot;, &quot;User Login&quot;)">
-                  </a> <!-- runScenario("Login with valid email and password", "User Login") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with valid email and password","User Login")</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:92)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.automationexcersie.utils.WaitUtils.&lt;init&gt;(WaitUtils.java:20)
-	at com.automationexcersie.stepdefinitions.LoginSteps.the_user_is_on_the_home_page(LoginSteps.java:33)
-	at ✽.the user is on the home page(file:///Users/parthadebnath/eclipse-workspace/MyEclipse/com.automationexcersie/src/test/resources/features/login.feature:8)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
+                  <a name="validLoginTest">
+                  </a> <!-- validLoginTest -->
+                  <span class="method-name">validLoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/b8/m75nql7x1rz70glw52z76d5m0000gn/T/testng-eclipse--1606152085/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/b8/m75nql7x1rz70glw52z76d5m0000gn/T/testng-eclipse--1265652840/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -208,7 +169,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.automationexcersie.runners.TestRunner&quot;/&gt;
+      &lt;class name=&quot;com.automationexcersie.testngtest.LoginTestNGTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -232,14 +193,6 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">cucumber</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">runScenario</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -258,22 +211,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'com.automationexcersie.runners.TestRunner')
-data.setCell(0, 3, 14095);
+data.setCell(0, 1, 'InvalidLoginTestWithInvlaidEmail')
+data.setCell(0, 2, 'com.automationexcersie.testngtest.LoginTestNGTest')
+data.setCell(0, 3, 4227);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'com.automationexcersie.runners.TestRunner')
-data.setCell(1, 3, 8624);
+data.setCell(1, 1, 'validLoginTest')
+data.setCell(1, 2, 'com.automationexcersie.testngtest.LoginTestNGTest')
+data.setCell(1, 3, 3136);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'com.automationexcersie.runners.TestRunner')
-data.setCell(2, 3, 8618);
+data.setCell(2, 1, 'InvalidLoginTestWithInvlaidPassword')
+data.setCell(2, 2, 'com.automationexcersie.testngtest.LoginTestNGTest')
+data.setCell(2, 3, 2617);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -299,33 +252,43 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.automationexcersie.runners.TestRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@7132a9dc)</span>
+              <div class="chronological-class-name">com.automationexcersie.testngtest.LoginTestNGTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Login with valid email and password", "User Login")</span>
-                <span class="method-start">389 ms</span>
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">12569 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">15711 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15866 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Login with invalid password", "User Login")</span>
-                <span class="method-start">9018 ms</span>
+                <span class="method-name">InvalidLoginTestWithInvlaidEmail</span>
+                <span class="method-start">18109 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">22338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22464 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Login with invalid email", "User Login")</span>
-                <span class="method-start">17640 ms</span>
+                <span class="method-name">InvalidLoginTestWithInvlaidPassword</span>
+                <span class="method-start">26132 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">31751 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">28750 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -13,6 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 	    tags = "@regression",
 	    plugin = {
 	        "pretty",                                                    // Colorful console output
+	        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 	        "json:target/cucumber-reports/cucumber.json",
 	        "html:target/cucumber-reports/cucumber.html"                  // Saves failed test paths for re-run
 		    },
@@ -25,7 +26,6 @@ import io.cucumber.testng.CucumberOptions;
 	)
 	public class TestRunner extends AbstractTestNGCucumberTests {
 
-	  
-	}
+	  }
 
 

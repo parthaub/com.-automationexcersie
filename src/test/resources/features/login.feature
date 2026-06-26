@@ -13,7 +13,7 @@ Feature: User Login
     When the user enters a valid email
     And the user enters a valid password
     And the user clicks the Login button
-    Then the user should be logged in successfully ans see the "Logged in as " text should be visible in the header
+    Then the user should be logged in successfully ans see the "Partha" text should be visible in the header
 
   @TC-02 @negative @regression
   Scenario: Login with invalid password

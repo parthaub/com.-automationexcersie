@@ -48,6 +48,13 @@ public class AssertHelper {
         softAssert.assertNotNull(obj, message);
     }
 
+    
+    
+ 
+    
+    
+    
+    
     // Important for soft assert
     public void assertAll() {
         softAssert.assertAll();

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jun 21 10:55:57 EDT 2026</td>
+<td>Started on:</td><td>Thu Jun 25 22:51:11 EDT 2026</td>
 </tr>
-<tr><td>Total time:</td><td>31 seconds (31859 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28900 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,71 +76,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.automationexcersie.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.automationexcersie.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid email", "User Login"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:92)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.automationexcersie.utils.WaitUtils.&lt;init&gt;(WaitUtils.java:20)
-	at com.automationexcersie.stepdefinitions.LoginSteps.the_user_is_on_the_home_page(LoginSteps.java:33)
-	at ✽.the user is on the home page(file:///Users/parthadebnath/eclipse-workspace/MyEclipse/com.automationexcersie/src/test/resources/features/login.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace523528914", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace523528914'><pre>java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:92)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.automationexcersie.utils.WaitUtils.&lt;init&gt;(WaitUtils.java:20)
-	at com.automationexcersie.stepdefinitions.LoginSteps.the_user_is_on_the_home_page(LoginSteps.java:33)
-	at ✽.the user is on the home page(file:///Users/parthadebnath/eclipse-workspace/MyEclipse/com.automationexcersie/src/test/resources/features/login.feature:8)
-</pre></div></td>
-<td>14</td>
-<td>com.automationexcersie.runners.TestRunner@1e66f1f5</td></tr>
+<td title='com.automationexcersie.testngtest.LoginTestNGTest.InvalidLoginTestWithInvlaidPassword()'><b>InvalidLoginTestWithInvlaidPassword</b><br>Test class: com.automationexcersie.testngtest.LoginTestNGTest</td>
+<td></td>
+<td>2</td>
+<td>com.automationexcersie.testngtest.LoginTestNGTest@31190526</td></tr>
 <tr>
-<td title='com.automationexcersie.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.automationexcersie.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid password", "User Login"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:92)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.automationexcersie.utils.WaitUtils.&lt;init&gt;(WaitUtils.java:20)
-	at com.automationexcersie.stepdefinitions.LoginSteps.the_user_is_on_the_home_page(LoginSteps.java:33)
-	at ✽.the user is on the home page(file:///Users/parthadebnath/eclipse-workspace/MyEclipse/com.automationexcersie/src/test/resources/features/login.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1565647145", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1565647145'><pre>java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:92)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.automationexcersie.utils.WaitUtils.&lt;init&gt;(WaitUtils.java:20)
-	at com.automationexcersie.stepdefinitions.LoginSteps.the_user_is_on_the_home_page(LoginSteps.java:33)
-	at ✽.the user is on the home page(file:///Users/parthadebnath/eclipse-workspace/MyEclipse/com.automationexcersie/src/test/resources/features/login.feature:8)
-</pre></div></td>
-<td>8</td>
-<td>com.automationexcersie.runners.TestRunner@1e66f1f5</td></tr>
+<td title='com.automationexcersie.testngtest.LoginTestNGTest.validLoginTest()'><b>validLoginTest</b><br>Test class: com.automationexcersie.testngtest.LoginTestNGTest</td>
+<td></td>
+<td>3</td>
+<td>com.automationexcersie.testngtest.LoginTestNGTest@31190526</td></tr>
 <tr>
-<td title='com.automationexcersie.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.automationexcersie.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid email and password", "User Login"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:92)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.automationexcersie.utils.WaitUtils.&lt;init&gt;(WaitUtils.java:20)
-	at com.automationexcersie.stepdefinitions.LoginSteps.the_user_is_on_the_home_page(LoginSteps.java:33)
-	at ✽.the user is on the home page(file:///Users/parthadebnath/eclipse-workspace/MyEclipse/com.automationexcersie/src/test/resources/features/login.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace60181881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace60181881'><pre>java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:92)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.automationexcersie.utils.WaitUtils.&lt;init&gt;(WaitUtils.java:20)
-	at com.automationexcersie.stepdefinitions.LoginSteps.the_user_is_on_the_home_page(LoginSteps.java:33)
-	at ✽.the user is on the home page(file:///Users/parthadebnath/eclipse-workspace/MyEclipse/com.automationexcersie/src/test/resources/features/login.feature:8)
-</pre></div></td>
-<td>8</td>
-<td>com.automationexcersie.runners.TestRunner@1e66f1f5</td></tr>
+<td title='com.automationexcersie.testngtest.LoginTestNGTest.InvalidLoginTestWithInvlaidEmail()'><b>InvalidLoginTestWithInvlaidEmail</b><br>Test class: com.automationexcersie.testngtest.LoginTestNGTest</td>
+<td></td>
+<td>4</td>
+<td>com.automationexcersie.testngtest.LoginTestNGTest@31190526</td></tr>
 </table><p>
 </body>
 </html>

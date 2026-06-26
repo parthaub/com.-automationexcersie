@@ -1,0 +1,18 @@
+2026-06-25 22:55:36 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - ===============Open the browser and user in home page================
+2026-06-25 22:55:36 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User clicks in loginlink Login
+2026-06-25 22:55:38 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User enters email id
+2026-06-25 22:55:38 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User enters password
+2026-06-25 22:55:50 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User clicks login button accorectly
+2026-06-25 22:55:50 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - ========Positive Test: User see scessfull message Partha
+2026-06-25 22:55:53 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - ===============Open the browser and user in home page================
+2026-06-25 22:55:55 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User clicks in loginlink Login
+2026-06-25 22:55:57 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User enters email id
+2026-06-25 22:55:58 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - ============User clicks invilade passord correctly==============
+2026-06-25 22:56:00 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User clicks login button accorectly
+2026-06-25 22:56:00 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - =================Negative Test: The error message in displayed Your email or password is incorrect!
+2026-06-25 22:56:03 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - ===============Open the browser and user in home page================
+2026-06-25 22:56:05 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User clicks in loginlink Login
+2026-06-25 22:56:07 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User clicks invilad email id
+2026-06-25 22:56:07 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User enters password
+2026-06-25 22:56:09 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - User clicks login button accorectly
+2026-06-25 22:56:09 [main] INFO  com.automationexcersie.stepdefinitions.LoginSteps - =================Negative Test: The error message in displayed Your email or password is incorrect!
